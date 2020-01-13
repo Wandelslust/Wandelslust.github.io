@@ -153,7 +153,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootblog4"
+THEME = "jidn"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
@@ -1349,4 +1349,8 @@ GLOBAL_CONTEXT = {}
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
-GLOBAL_CONTEXT_FILLER = []
+LOBAL_CONTEXT_FILLER = []
+GLOBAL_CONTEXT.update({
+   "JIDN": {},  # Extra info about authors
+   # "JIDN-theme": "theme-base-blue",
+})
